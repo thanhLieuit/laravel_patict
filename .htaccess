@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
+#RewriteRule ^(.*)$ https://patict.vn/public/$1 [R,L]
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_REFERER} !^https://(www.)?patict.vn/ [nc]
+RewriteRule .*.(gif|jpg|png)$ https://patict.vn/img/stop_stealing_bandwidth.gif[nc]
+RewriteRule ^(.*).html$ $1.php [R=301,L]
+

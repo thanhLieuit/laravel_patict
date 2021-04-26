@@ -1,0 +1,151 @@
+.form-group .cont {
+  width: 93%;
+  max-width: 350px;
+  text-align: center;
+  margin: 4% auto;
+  padding: 30px 0;
+
+  color: #EEE;
+  border-radius: 5px;
+
+  overflow: hidden;
+}
+
+/*hr {
+  margin: 20px;
+  border: none;
+  border-bottom: thin solid rgba(255,255,255,.1);
+}
+*/
+/*div.title { font-size: 2em; }
+*/
+/*h1 span {
+  font-weight: 300;
+  color: #Fd4;
+}
+*/
+.form-group .stars {
+  width: 270px;
+  display: inline-block;
+}
+
+.form-group input.star { display: none; }
+
+.form-group label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+
+.form-group input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+
+.form-group input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+
+.form-group input.star-1:checked ~ label.star:before { color: #F62; }
+
+.form-group label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+.form-group label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.form-chec {
+  
+}
+.form-chec ul { 
+  list-style: none;
+  margin: 5px 20px;
+}
+.form-chec li {
+  margin: 10px 0;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
+.display-6 {
+ color: black;
+}
+#example23 {
+  color: #000;
+}
+#example23_filter label {
+  color: #000;
+}
+.dataTables_filter input {
+  background-color: #383f4800 !important;
+}
+.card-block {
+  border: 1px solid #000;
+}
+.form-horizontal {
+  border: 1px solid #000;
+}
+.tablinks {
+  color: #000 !important;
+}
+.form-group label {
+  color: #000 !important;
+}
+.form-control {
+  background-color: #272c3300;
+  color: #000;
+}
+ .form-control:focus {
+  background-color: #272c3300;
+  color: #000;
+ }
+.tox-tinymce {
+  width: 100% !important;
+}
